@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+venv/
+.venv
+env/
+build/
+dist/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Data outputs (Tracked by DVC)
+data/processed/
+
+# Logs and temporary files
+src/output.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# DVC (Keep config but ignore cache/temp)
+.dvc/cache/
+.dvc/tmp/
